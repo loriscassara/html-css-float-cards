@@ -40,6 +40,7 @@ h3 {
 
 div {
     margin: 0 64px 40px 64px;
+    box-shadow: 5px 5px 5px 5px #dedede;
 }
 
 /* header elements */
