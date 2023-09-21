@@ -1,0 +1,72 @@
+/* common UI elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h3 {
+    color: white;
+    padding: 5px 0 5px 0;
+}
+
+.section p:nth-of-type(odd) {
+    color: white;
+    padding: 0 0 5px 0;
+}
+
+.section p:nth-of-type(even) {
+    color: #38b8e8;
+}
+
+/* header elements */
+.title {
+    padding: 50px 0 50px 0;
+    font-size: 45px;
+    color: #e53170;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* main elements */
+main {
+    text-align: center;
+}
+
+/* footer elements */
+footer {
+    padding: 40px 0 0 0;
+}
+
+.section {
+    width: 25%;
+    background-color: #0f0e17;
+}
+
+.float {
+    float: left;
+}
+
+img {
+    width: 100px;
+    padding: 0 10px 0 0;
+}
